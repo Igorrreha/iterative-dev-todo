@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://drqitxgeo4snq"]
+
+[ext_resource type="Script" path="res://addons/iterative_todo/main_control.gd" id="1_hwpra"]
+
+[node name="MainControl" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hwpra")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 507.0
+offset_top = 308.0
+offset_right = 645.0
+offset_bottom = 339.0
+text = "PLUGIN BUTTON"
